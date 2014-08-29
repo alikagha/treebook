@@ -2,10 +2,13 @@ Rails.application.routes.draw do
   devise_for :users
   resources :statuses
 
+<<<<<<< HEAD
   root to: 'statuses#index'
 
 
 
+=======
+>>>>>>> ce8355db9ac810133a82168d6e62af4982b018ac
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

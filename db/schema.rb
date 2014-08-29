@@ -21,9 +21,12 @@ ActiveRecord::Schema.define(version: 20140821220611) do
   end
 
   create_table "users", force: true do |t|
+<<<<<<< HEAD
     t.string   "first_name"
     t.string   "last_name"
     t.string   "profile_name"
+=======
+>>>>>>> ce8355db9ac810133a82168d6e62af4982b018ac
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
